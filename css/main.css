@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Begins: Header and burguer menu */
+.navbar {
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 1em;
+}
+
+.logo-nav {
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+/* Part I: Jumbotron and Sign up */
+.taxi {
+    background-image: url(../assets/images/taxi.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron {
+    background-color: #F7B617;
+    color: white;
+    height: 50vh;
+    margin-top: 25vh;
+}
+
+.white-logo {
+    color: white;
+    height: 1.5rem;
+}
+
+.button-jumbotron {
+    background-color: white;
+    border-radius: 0.3rem;
+    border: none;
+    color: black;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.lines > hr {
+    display: inline-block;
+    margin-bottom: 0rem;
+    width: 12rem;
+}
+
+.lines > span {
+    font-size: .8em;
+    padding-bottom:  2em;
+    text-align: center;
+}
+
+/* Part II: Download App */
+.new-app {
+    background-color: #F7B617;
+    color: white;
+}
+
+.border-white {
+
+
+}
+
+.description {
+    margin-top: 9.5rem;
+    margin-left: 2rem;
+    font-size: 1em;
+}
+
+.phone {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    width: 25rem;
+}
+
+/* Part III: Download App */
+.driver {
+    background-image: url("../assets/images/conduce.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+}
+
+.register {
+    background-color: rgba(52, 52, 52, 0.45);
+    color: white;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    height: 25rem;
+}
+
+.text-register {
+    margin-top: 6.5rem;
+    margin-left: 2rem;
+}
+
+.btn-here {
+  background-color: #ffc107;
+  border: none;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Part IV: Rates */
+.rates {
+    background-color: #ffc107;
+    color: white;
+    font-size: 1.5rem;
+    height: 80vh;
+    padding: 2rem 0.7rem;
+}
+
+.destinity {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    color:white;
+    font-size: 1.2rem;
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+    outline: none;
+    padding: 0.2rem 1rem;
+    width: 20rem;
+}
+
+.text-map {
+    margin-top: 8rem;
+}
+
+.route {
+    background-color: white;
+    border: none;
+    border-radius: 0.3rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 6rem;
+    padding: 0.5rem 1.3rem;
+    width: 12rem;
+}
+
+.map {
+    border: 1px solid white;
+    margin-top: 7rem;
+    padding: 1rem;
+}
+
+.map > iframe {
+    margin-left: 2.5rem;
+    height: 50vh;
+    width: 80vh;
+}
+
+/* Finally: footer */
+footer {
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 1.1rem;
+}
+
+.white-logo2 {
+    height: 2rem;
+    margin-top: 4rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.icons > li {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.appStore, .googlePlay {
+    float: right;
+    width: 12rem;
+}
+
+/* Responsive */
+.burguer-menu  span {
+  border-radius: 0.3rem;
+  border: 0.1rem solid #dddddd;
+  font-size: 2rem;
+  padding: 0.2rem 0.4rem;
+  color: gray;
+}
+
+@media (max-width: 768px){
+   .logo-nav {
+    position: absolute;
+    right: 60rem;
+  }
+
+   .nav-link {
+    color: grey;
+  }
